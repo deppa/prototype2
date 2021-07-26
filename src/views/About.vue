@@ -37,6 +37,7 @@ export default defineComponent({
       //.post('https://api.coindesk.com/v1/bpi/currentprice.json',)
       .then((response) => {
         state.info = response.data;
+        
       });
     }
     const dbinsert = () => {

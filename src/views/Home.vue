@@ -10,12 +10,14 @@ import { Options, Vue } from 'vue-class-component';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 import About from '@/views/About.vue'; // @ is an alias to /src
 import File from '@/views/File.vue'; // @ is an alias to /src
+import Parent from '@/views/ParentComponent.vue'; // @ is an alias to /src
 
 @Options({
   components: {
     HelloWorld,
     About,
-    File
+    File,
+    Parent
   },
 })
 export default class Home extends Vue {}
